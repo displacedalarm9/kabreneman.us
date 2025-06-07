@@ -1,0 +1,30 @@
+---
+last_updated: 2025-06-06
+version: 1.0.0
+file_status: report
+---
+
+# Electricity Statement Analysis - 5/14/25
+
+## Service Information
+- Provider: Evergy
+- Service: Electricity
+- Account: 8948774021
+
+## Statement Details
+| Category | Amount |
+|----------|--------|
+| Previous Balance | $116.00 |
+| LIEAP Benefit | -$116.00 |
+| Payment 5/22 | -$88.46 |
+| Average Plan | $68.00 |
+| Pay Agreement | $20.46 |
+| Total Due | $0.00 |
+
+## Service Period
+- Billing Period: 4/15/25 - 5/14/25
+- Next Statement: 6/17/25
+- Status: Current
+- Projected Next Bill: $50.00
+
+[See: progress.md for budget allocation]
