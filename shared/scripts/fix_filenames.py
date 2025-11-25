@@ -29,5 +29,15 @@ def rename_files(base_path, rename_map):
             print(f"Renamed: {old_path} -> {new_path}")
 
 if __name__ == '__main__':
-    base_path = r'c:\Users\kabre\OneDrive\WORKCAP'
-    rename_files(base_path, rename_map)
+    import argparse
+    
+    # Get the repository root (two directories up from this script's location)
+    script_dir = Path(__file__).resolve().parent
+    default_base_path = script_dir.parent.parent
+    
+    parser = argparse.ArgumentParser(description='Fix file naming conventions')
+    parser.add_argument('--base-path', type=str, default=str(default_base_path),
+                        help='Base path for workspace (defaults to repository root)')
+    args = parser.parse_args()
+    
+    rename_files(args.base_path, rename_map)
