@@ -1,0 +1,40 @@
+<Configuration>
+  <System>
+    <ProductName>Legion 5 Gen 10 AMD</ProductName>
+    <MachineTypeModel>83M0</MachineTypeModel>
+    <SKU>83M00002US</SKU>
+    <NodeRole>PrimaryWorkstation</NodeRole>
+    <CSN>ID-NODE-OPS-001</CSN>
+  </System>
+  <Hardware>
+    <CPU>AMD Ryzen 7 8845HS</CPU>
+    <GPU>NVIDIA GeForce RTX 5060 Laptop GPU</GPU>
+    <RAM>16GB DDR5-5600</RAM>
+    <Storage>1TB PCIe Gen4 SSD</Storage>
+    <Display>15.1" WQXGA OLED 165Hz</Display>
+    <Battery>80Wh</Battery>
+    <Keyboard>RGB Backlit</Keyboard>
+  </Hardware>
+  <Software>
+    <OS>Windows 11 Pro</OS>
+    <OneDrive>Enabled</OneDrive>
+    <OfficeSuite>Microsoft 365 Apps</OfficeSuite>
+    <SecuritySuite>Windows Defender</SecuritySuite>
+  </Software>
+  <ProfileOverlay>
+    <Wallpaper>ops-blue-grid.png</Wallpaper>
+    <AccentColor>#003366</AccentColor>
+    <Hostname>NODE-OPS-001</Hostname>
+    <LoginTheme>RestorationReady</LoginTheme>
+  </ProfileOverlay>
+  <Networking>
+    <WiFi>Wi-Fi 7</WiFi>
+    <Bluetooth>5.4</Bluetooth>
+    <Ethernet>Gigabit</Ethernet>
+  </Networking>
+  <Tags>
+    <Environment>GamingCodingPad</Environment>
+    <DeploymentPhase>Phase1</DeploymentPhase>
+    <RestorationGrade>True</RestorationGrade>
+  </Tags>
+</Configuration>

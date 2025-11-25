@@ -1,0 +1,40 @@
+<Configuration>
+  <System>
+    <ProductName>Custom Archival Node</ProductName>
+    <MachineTypeModel>NAS-ARCH-001</MachineTypeModel>
+    <SKU>CustomBuild</SKU>
+    <NodeRole>ArchivalStorage</NodeRole>
+    <CSN>ID-NODE-ARC-003</CSN>
+  </System>
+  <Hardware>
+    <CPU>Intel Core i5-13500T</CPU>
+    <GPU>None (Integrated)</GPU>
+    <RAM>16GB DDR4 ECC</RAM>
+    <Storage>4TB RAID5 NAS + 1TB SSD (OS)</Storage>
+    <Display>Headless / Remote Access</Display>
+    <Battery>N/A</Battery>
+    <Keyboard>N/A</Keyboard>
+  </Hardware>
+  <Software>
+    <OS>TrueNAS SCALE</OS>
+    <OneDrive>Not Applicable</OneDrive>
+    <OfficeSuite>Not Applicable</OfficeSuite>
+    <SecuritySuite>Firewall + Snapshot Scheduler</SecuritySuite>
+  </Software>
+  <ProfileOverlay>
+    <Wallpaper>archive-grey-motif.png</Wallpaper>
+    <AccentColor>#228B22</AccentColor>
+    <Hostname>NODE-ARC-003</Hostname>
+    <LoginTheme>StorageReady</LoginTheme>
+  </ProfileOverlay>
+  <Networking>
+    <WiFi>Optional</WiFi>
+    <Bluetooth>None</Bluetooth>
+    <Ethernet>Gigabit (Dual NIC)</Ethernet>
+  </Networking>
+  <Tags>
+    <Environment>GamingCodingPad</Environment>
+    <DeploymentPhase>Phase1</DeploymentPhase>
+    <RestorationGrade>True</RestorationGrade>
+  </Tags>
+</Configuration>

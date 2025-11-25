@@ -1,0 +1,40 @@
+<Configuration>
+  <System>
+    <ProductName>Legion Pro 5 Gen 10 AMD</ProductName>
+    <MachineTypeModel>83DG</MachineTypeModel>
+    <SKU>83DG0001US</SKU>
+    <NodeRole>GamingVR</NodeRole>
+    <CSN>ID-NODE-VR-002</CSN>
+  </System>
+  <Hardware>
+    <CPU>AMD Ryzen 9 8945HX</CPU>
+    <GPU>NVIDIA GeForce RTX 5070 Laptop GPU</GPU>
+    <RAM>32GB DDR5-5600</RAM>
+    <Storage>1TB PCIe Gen4 SSD</Storage>
+    <Display>16" QHD+ 240Hz IPS</Display>
+    <Battery>80Wh</Battery>
+    <Keyboard>RGB Backlit (4-zone)</Keyboard>
+  </Hardware>
+  <Software>
+    <OS>Windows 11 Pro</OS>
+    <OneDrive>Enabled</OneDrive>
+    <OfficeSuite>Microsoft 365 Apps</OfficeSuite>
+    <SecuritySuite>Windows Defender</SecuritySuite>
+  </Software>
+  <ProfileOverlay>
+    <Wallpaper>vr-neon-circuit.png</Wallpaper>
+    <AccentColor>#990033</AccentColor>
+    <Hostname>NODE-VR-002</Hostname>
+    <LoginTheme>PerformanceReady</LoginTheme>
+  </ProfileOverlay>
+  <Networking>
+    <WiFi>Wi-Fi 7</WiFi>
+    <Bluetooth>5.4</Bluetooth>
+    <Ethernet>Gigabit</Ethernet>
+  </Networking>
+  <Tags>
+    <Environment>GamingCodingPad</Environment>
+    <DeploymentPhase>Phase2</DeploymentPhase>
+    <RestorationGrade>True</RestorationGrade>
+  </Tags>
+</Configuration>
