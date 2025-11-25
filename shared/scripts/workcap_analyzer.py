@@ -208,7 +208,18 @@ Files with invalid references: {sum(1 for r in results if r['invalid_references'
         return report
 
 if __name__ == '__main__':
-    analyzer = WorkCapAnalyzer(r'c:\Users\kabre\OneDrive\WORKCAP')
+    import argparse
+    
+    # Get the repository root (two directories up from this script's location)
+    script_dir = Path(__file__).resolve().parent
+    default_base_path = script_dir.parent.parent
+    
+    parser = argparse.ArgumentParser(description='Analyze WorkCap workspace')
+    parser.add_argument('--base-path', type=str, default=str(default_base_path),
+                        help='Base path for workspace (defaults to repository root)')
+    args = parser.parse_args()
+    
+    analyzer = WorkCapAnalyzer(args.base_path)
     report = analyzer.analyze_workspace()
     
     # Set up report path with current date
@@ -222,3 +233,5 @@ if __name__ == '__main__':
     report_path.parent.mkdir(parents=True, exist_ok=True)
     with open(report_path, 'w', encoding='utf-8') as f:
         f.write(report)
+    
+    print(f"Report generated: {report_path}")
