@@ -62,7 +62,6 @@ Sensitive data files should be stored locally and NOT committed to the repositor
 |-----------|----------|---------|
 | System info | `data/sysinfo.txt` | System configuration details |
 | Personal configs | `data/` | Personal configuration files |
-| Exports | `data/exports/` | Data exports and backups |
 
 ### Topics Configuration
 
@@ -79,8 +78,7 @@ kabreneman.us/
 ├── topics.json           # Project topics metadata
 ├── accordionDecision/    # Decision documentation
 └── data/                 # Local-only data (gitignored)
-    ├── sysinfo.txt       # System information (local only)
-    └── exports/          # Data exports (local only)
+    └── sysinfo.txt       # System information (local only)
 ```
 
 ## Contributing
