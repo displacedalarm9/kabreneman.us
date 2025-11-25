@@ -1,6 +1,6 @@
 ---
-last_updated: 2025-06-06
-version: 1.0.0
+last_updated: 2025-11-25
+version: 1.1.0
 file_status: log  # Changed from protocol to log
 ---
 
@@ -57,3 +57,5 @@ file_status: log  # Changed from protocol to log
 | templates/opercap1.md | 2025/Q2/templates/opercap1.md | 2025-06-06 |
 | templates/reports.md | 2025/Q2/templates/reports.md | 2025-06-06 |
 | docs/folder-audit.md | archive/2025/Q2/folder-audit.md | 2025-06-06 | Content merged into standards.md |
+| 2025-11-25_accordion-decision-flowchart.md | 2025/Q4/misc/ | 2025-11-25 | Non-financial reference content |
+| 2025-11-25_accordion-decision-flowchart.txt | 2025/Q4/misc/ | 2025-11-25 | Plain text version |
