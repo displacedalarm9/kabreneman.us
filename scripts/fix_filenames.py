@@ -29,5 +29,8 @@ def rename_files(base_path, rename_map):
             print(f"Renamed: {old_path} -> {new_path}")
 
 if __name__ == '__main__':
-    base_path = r'c:\Users\kabre\OneDrive\WORKCAP'
+    import sys
+    # Default to current directory if no path provided
+    base_path = sys.argv[1] if len(sys.argv) > 1 else '.'
     rename_files(base_path, rename_map)
+    print(f"\nRename operation completed for base path: {base_path}")

@@ -5,8 +5,6 @@ from datetime import datetime
 from pathlib import Path
 import shutil  # For file operations
 import time  # For timestamp
-import shutil  # For file operations
-import time  # For timestamp
 
 class WorkCapAnalyzer:
     def __init__(self, base_path):
