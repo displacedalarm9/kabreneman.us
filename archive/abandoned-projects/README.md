@@ -1,0 +1,1 @@
+# Abandoned Projects\n\nThis directory contains files from previously abandoned repositories that were consolidated into kabreneman.us.\n\n## DevCamp\nAbandoned project from ~2021. Repository contained only README and LICENSE files.\n\n## part01\nEmpty repository from ~2021.
