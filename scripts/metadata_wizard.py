@@ -7,7 +7,6 @@ ensuring consistency across templates and documentation. Supports both simple
 markdown frontmatter and full DOCSYS/UNISYS metadata schemas.
 """
 
-import os
 import re
 import sys
 import yaml
@@ -117,7 +116,8 @@ class MetadataWizard:
                 metadata = yaml.safe_load(yaml_content)
                 if isinstance(metadata, dict):
                     return metadata, body_content
-            except:
+            except yaml.YAMLError:
+                # Fall back to simple parsing if YAML parsing fails
                 pass
             
             # Fall back to simple key:value parsing
@@ -232,7 +232,15 @@ class MetadataWizard:
         cross_refs = {}
         github_issues = input("\nGitHub issue numbers (comma-separated): ").strip()
         if github_issues:
-            cross_refs['github_issues'] = [int(n.strip()) for n in github_issues.split(',') if n.strip().isdigit()]
+            issue_list = []
+            for n in github_issues.split(','):
+                n = n.strip()
+                if n.isdigit():
+                    issue_list.append(int(n))
+                else:
+                    print(f"Warning: '{n}' is not a valid issue number, skipping.")
+            if issue_list:
+                cross_refs['github_issues'] = issue_list
         
         onedrive_ids = input("OneDrive file IDs (comma-separated): ").strip()
         if onedrive_ids:
