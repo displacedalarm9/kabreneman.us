@@ -351,3 +351,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Sensitive data folder - contains financial records, logs, system configs
+# Never commit sensitive data to version control
+Sensitive/
+
