@@ -9,9 +9,9 @@ file_status: report
 ## Active Utilities
 | Service | Provider | Account | Due Date | Amount |
 |---------|----------|----------|----------|---------|
-| Electric | Evergy | 8948774021 | 17th | $68.00 |
-| Gas | Kansas Gas | 512902271 1515116 00 | 9th | $43.00 |
-| Water | City of Salina | 70015044 | 12th | $40.00 |
+| Electric | Evergy | XXXX4021 | 17th | $68.00 |
+| Gas | Kansas Gas | XXXX6 00 | 9th | $43.00 |
+| Water | City of Salina | XXXX5044 | 12th | $40.00 |
 
 ## Status Overview
 | Service | Balance | Credits | Next Bill |

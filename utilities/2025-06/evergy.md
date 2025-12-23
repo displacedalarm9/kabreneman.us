@@ -9,7 +9,7 @@ file_status: report
 ## Service Information
 - Provider: Evergy
 - Service: Electricity
-- Account: 8948774021
+- Account: XXXX4021
 
 ## Statement Details
 | Category | Amount |

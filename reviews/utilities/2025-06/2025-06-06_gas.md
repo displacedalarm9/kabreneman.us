@@ -9,7 +9,7 @@ file_status: report
 ## Service Information
 - Provider: Kansas Gas Service
 - Service: Natural Gas
-- Account: 512902271 1515116 00
+- Account: XXXX6 00
 
 ## Statement Details
 | Category | Amount |

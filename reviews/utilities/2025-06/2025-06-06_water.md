@@ -9,7 +9,7 @@ file_status: report
 ## Service Information
 - Provider: City of Salina
 - Service: Water
-- Account: 70015044
+- Account: XXXX5044
 
 ## Statement Details
 | Category | Amount |

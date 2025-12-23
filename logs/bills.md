@@ -21,4 +21,4 @@ file_status: log
 | Laundry          | $10.00   | Every 10d | Manual      | CSH     | Ongoing   | Ongoing   |
 | Natural Gas      | $43.00   | 9th      | Manual      | CSH     | Credit     | $18.36 CR |
 | Evergy           | $68.00   | 17th     | Manual      | CSH     | Current    | Next bill 6/17 |
-| Water-Salina     | $40.00   | 23rd     | Manual      | CSH     | Current    | Acct #70015044 |
+| Water-Salina     | $40.00   | 23rd     | Manual      | CSH     | Current    | Acct #XXXX5044 |
