@@ -49,6 +49,12 @@ pip install -r requirements.txt
 
 ### Using Scripts
 
+**Metadata Wizard**:
+```bash
+python scripts/metadata_wizard.py
+```
+Interactive wizard for creating and managing YAML frontmatter metadata in markdown files. Supports both simple mode (basic frontmatter) and DOCSYS mode (full provenance tracking with TSN, cycles, and cross-references). See [docs/metadata-wizard.md](docs/metadata-wizard.md) for detailed usage.
+
 **File Renaming Script**:
 ```bash
 python scripts/fix_filenames.py [base_path]
@@ -61,6 +67,7 @@ python scripts/workcap_analyzer.py
 
 ## Documentation
 
+- **Metadata Wizard Guide**: See [`docs/metadata-wizard.md`](docs/metadata-wizard.md)
 - **File Naming Conventions**: See [`docs/filename.md`](docs/filename.md)
 - **Report Standards**: See [`docs/report-standards.md`](docs/report-standards.md)
 - **System History**: See [`docs/history.md`](docs/history.md)
