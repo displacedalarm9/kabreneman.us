@@ -83,6 +83,55 @@ This repository has been integrated with KABDMSV2 (KAB Data Management System Ve
 - Topics and metadata (topics.json)
 - Shared documentation standards
 
+### Project Status & Reviews
+
+**Current Status**: Active development on `pendingUpload` branch.
+
+**Pending Reviews**:
+| Issue | Description | Priority |
+|-------|-------------|----------|
+| KABDMSV2#9 | Integration review needed - verify data management system alignment | High |
+
+**Recent Updates**:
+- Accordion decision flowchart added (2025-11-25)
+- Documentation automation guide created
+- Issue templates and PR templates established
+
+## Automated Tooling
+
+This workspace includes the following automated tools and validation:
+
+### Development Tools
+| Tool | Purpose | Command |
+|------|---------|---------|
+| Black | Code formatting | `black scripts/` |
+| Flake8 | Linting | `flake8 scripts/` |
+| Pylint | Code analysis | `pylint scripts/` |
+| Pytest | Testing | `pytest` |
+| Mypy | Type checking | `mypy scripts/` |
+
+### Installation
+```bash
+# Install development dependencies
+pip install -r dev-requirements.txt
+```
+
+### Validation Commands
+```bash
+# Format code
+black scripts/
+
+# Run linting
+flake8 scripts/
+pylint scripts/
+
+# Run type checking
+mypy scripts/
+
+# Run tests (when available)
+pytest
+```
+
 ## Contributing
 
 When adding files to this repository:
