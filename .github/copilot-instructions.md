@@ -14,11 +14,18 @@ This is a **personal data management system (KABDMSV2)** split into two reposito
 - **Scripts** (`scripts/`): Python utilities for file management, analysis, and automated workflows
 
 ### Critical File Naming Convention
-**Pattern**: `[Type]_[ID/Date]_[Description].[extension]`
+File naming patterns are **category-specific** but share common rules:
 - Dates: `YYYY-MM-DD` (hyphens only)
 - Words: underscores for separation
-- Example: `2025-06-06_daily.md`, `config_NODE-OPS-001_Legion5Gen10.xml`
 
+**Time-series markdown (templates, logs, reports)**  
+- Pattern: `[Date]_[Description].md`
+- Example: `2025-06-06_daily.md`
+
+**Node configuration XML files (`configs/`)**  
+- Pattern: `config_[CSN]_[HostModel].xml`
+- `CSN`: matches `ID-NODE-[TYPE]-[NUM]` (see Configuration Management below)
+- Example: `config_NODE-OPS-001_Legion5Gen10.xml`
 ## Development Workflows
 
 ### File Management Scripts
@@ -46,10 +53,10 @@ Templates in `templates/` are designed for copying to data repository with date 
 
 ## Project-Specific Patterns
 
-### Configuration Management
-- Node configs use XML format with standardized sections: System, Hardware, Software, ProfileOverlay, Networking
-- Each node has unique CSN (Customer Serial Number): `ID-NODE-[TYPE]-[NUM]`
-- Environment tags classify node purpose (OPS=operations, ARC=archival, VR=virtual reality)
+1. **Debt Control**: Establishes an initial per-paycheck buffer and stabilizes cash flow.
+2. **Debt Reduction**: Increases the buffer and accelerates payoff of existing obligations.
+3. **Build Credit**: Maintains a larger buffer while focusing on improving credit position.
+4. **Build Wealth**: Long-term growth, savings, and investment focus.
 
 ### Financial Phase System
 The system operates on 4 phases (defined in `procedures/changeover.md`):
