@@ -104,22 +104,24 @@ Common document types in the workspace:
 
 ## Template Index
 1. Report Templates
-   - `/templates/review/daily.md`: Daily position checklist
-   - `/templates/review/weekly.md`: Weekly review format
-   - `/templates/review/monthly.md`: Monthly review format 
-   - `/templates/review/quarterly.md`: Quarter review format
-   - `/templates/report/variance.md`: Variance tracking
-   - `/templates/report/status.md`: Status reporting
+   - `/templates/daily.md`: Daily position checklist
+   - `/templates/weekly.md`: Weekly review format
+   - `/templates/monthly.md`: Monthly review format
+   - `/templates/quarterly.md`: Quarter review format
+   - `/templates/variance.md`: Variance tracking
+   - `/templates/status.md`: Status reporting
+   - `/templates/report/weekly.md`: Weekly report format
 
 2. Data Templates
-   - `/templates/data/accounts.md`: Account positions
-   - `/templates/data/utilities.md`: Utility tracking
-   - `/templates/data/distribution.md`: Payment allocation
-   - `/templates/data/obligations.md`: Obligation tracking
+   - `/templates/accounts.md`: Account positions
+   - `/templates/utilities.md`: Utility tracking
+   - `/templates/distribution.md`: Payment allocation
+   - `/templates/obligations.md`: Obligation tracking
+   - `/templates/data/subscriptions.md`: Subscription tracking
 
-3. Special Templates  
-   - `/templates/invest/sidu.md`: Discretionary usage
-   - `/templates/invest/investment.md`: Investment tracking
+3. Special Templates
+   - `/templates/sidu.md`: Discretionary usage
+   - `/templates/investment.md`: Investment tracking
 
 ## Report Standards
 1. Daily Reviews

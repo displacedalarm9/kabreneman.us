@@ -12,25 +12,36 @@ file_status: protocol  # Confirmed as protocol
 [See: archive/README.md for retention policy]
 
 ## Current Structure
-/WORKCAP/
-  /docs/         # Standards and documentation
-  /procedures/   # System and project procedures
-  /reviews/      # Position and status reviews
-    /daily/      # Daily tracking
-    /weekly/     # Weekly reviews  
-    /monthly/    # Monthly analysis
-    /quarterly/  # Phase assessments
-  /templates/    # Document templates
-    /review/     # Review templates
-    /report/     # Report templates
-    /data/       # Data templates
-    /invest/     # Investment templates
-  /docs/
-    /project_support/   # Project-support artifacts (DOCSYS/UNISYS canonized)
-      /copilot/         # Copilot activity records (TSN:0001–TSN:0003)
-  /archive/     # Archived files
-    /2024/      # By year
-      /Q1/      # By quarter
-      /Q2/
-      /Q3/
+/kabreneman.us/
+  /archive/          # Archived files
+    /2025/           # By year
+      /Q2/           # By quarter
       /Q4/
+  /configs/          # Node configuration files (XML)
+  /data/             # Local-only sensitive data (gitignored)
+  /docs/             # Documentation and standards
+    /project_support/  # Project-support artifacts
+      /copilot/      # Copilot activity records
+  /logs/             # Transaction log templates
+  /procedures/       # System and project procedures
+  /projects/         # Project directories
+    /workcap/        # WORKCAP project
+  /reports/          # Generated analysis reports
+    /analysis/       # WorkCap analysis outputs
+  /reviews/          # Position and status reviews
+    /accounts/YYYY-MM/
+    /adherence/
+    /obligations/
+    /status/
+    /utilities/YYYY-MM/
+    /variance/YYYY-MM/
+  /scripts/          # Python utilities
+  /shared/           # Shared scripts and data
+    /data/
+    /scripts/
+    /utilities/
+  /templates/        # Document templates
+    /data/           # Data templates
+    /report/         # Report templates
+  /utilities/        # Utility bill records
+    /YYYY-MM/

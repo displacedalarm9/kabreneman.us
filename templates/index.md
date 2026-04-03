@@ -8,30 +8,30 @@ file_status: template
 
 ## Folder Structure
 /templates/
-  /review/     # Review templates (daily, weekly, etc)
-  /report/     # Report templates (variance, status)
-  /data/       # Data templates (accounts, utilities)
-  /invest/     # Investment templates (sidu, investment)
+  /report/     # Report templates (weekly)
+  /data/       # Data templates (subscriptions)
+  *.md         # All other templates at root of /templates/
 
 ## Template Categories
-1. Review Templates (/review/)
+1. Review Templates
    - daily.md: Daily position tracking
    - weekly.md: Weekly status updates
    - monthly.md: Monthly progress review
    - quarterly.md: Phase assessment
 
-2. Report Templates (/report/)
+2. Report Templates
    - variance.md: Position variance tracking
    - status.md: System status reports
-   - emergency.md: Emergency response forms
+   - report/weekly.md: Weekly report format
 
-3. Data Templates (/data/)
+3. Data Templates
    - accounts.md: Account position tracking
    - utilities.md: Utility statement analysis
    - obligations.md: Obligation tracking
    - distribution.md: Payment allocation
+   - data/subscriptions.md: Subscription tracking
 
-4. Investment Templates (/invest/)
+4. Investment Templates
    - sidu.md: Discretionary usage planning
    - investment.md: Investment tracking
 

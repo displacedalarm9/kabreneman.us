@@ -1,3 +1,9 @@
+---
+last_updated: 2026-04-03
+version: 1.0.0
+file_status: template
+---
+
 # Statement of Cash Flows - Template
 ## Twelve Months Ending [END_MONTH YEAR]
 ### Project Operating Capital - Monthly Analysis
@@ -47,7 +53,7 @@ Report Date: [GENERATION_DATE]
 - Fixed Obligations Detail: [obligations.md](./obligations.md)
   - Tracks detailed breakdown of 65% fixed obligations
   - Monthly payment schedule and categories
-- Income Allocations: [allocations.md](./allocations.md)
+- Income Allocations: [allocation.md](./allocation.md)
   - Details income distribution across categories
   - Credit allowance utilization plan
 - Monthly Tracking: [./tracking/monthly/]
