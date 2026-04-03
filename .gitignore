@@ -3,6 +3,78 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# ==============================================================================
+# SECURITY: Sensitive Data Files
+# ==============================================================================
+# These patterns protect credentials, secrets, and personal/system information
+# from being committed to the repository.
+
+# Environment and configuration files with secrets
+.env
+.env.*
+!.env.example
+*.local
+appsettings.*.json
+!appsettings.json
+secrets.json
+*.secrets
+*.secret
+
+# API keys and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+!*.snk
+credentials.json
+credentials.xml
+service-account*.json
+
+# System information files (contain personal/machine data)
+sysinfo.txt
+sysinfo*.txt
+*sysinfo*
+system-info*.txt
+system-info*.md
+msinfo*.txt
+msinfo*.nfo
+
+# Database files (may contain sensitive data)
+*.sqlite
+*.sqlite3
+*.db
+*.mdb
+*.accdb
+
+# Backup files that may contain sensitive data
+*.bak
+*.backup
+*.dump
+
+# Personal data exports
+*export*.json
+*export*.csv
+*personal*.json
+*private*.json
+
+# Log files that may contain sensitive info
+*.log
+logs/
+
+# IDE and editor local settings that may contain paths/tokens
+.idea/
+*.code-workspace
+
+# Local data directory (sensitive data storage)
+data/*
+!data/README.md
+
+# ==============================================================================
+# END SECURITY SECTION
+# ==============================================================================
+
 # User-specific files
 *.rsuser
 *.suo
