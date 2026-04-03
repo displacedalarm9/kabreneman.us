@@ -1,12 +1,13 @@
-# Copilot Instructions for kabreneman.us
+# Claude Instructions for kabreneman.us
 
-> **Spoke file** — Derived from [`docs/canonical-context.md`](../docs/canonical-context.md).
+> **Spoke file** — Derived from [`docs/canonical-context.md`](docs/canonical-context.md).
 > Update the canonical context first, then propagate changes here.
 
 ## Project Overview
+
 This is a **personal data management system (KABDMSV2)** split into two repositories:
 - This repo: System configuration, templates, procedures, and management utilities
-- External repo: Actual sensitive data (financial records, logs) - kept private and local
+- External repo: Actual sensitive data (financial records, logs) — kept private and local
 
 ## Architecture & Data Flow
 
@@ -34,7 +35,7 @@ python scripts/workcap_analyzer.py
 ```
 
 ### Template Usage Pattern
-Templates in `templates/` are designed for copying to data repository with date prefixes:
+Templates in `templates/` are designed for copying to the data repository with date prefixes:
 - `templates/daily.md` → `2025-11-25_daily.md` in data repo
 - Follow markdown frontmatter structure (last_updated, version, file_status)
 
@@ -42,7 +43,7 @@ Templates in `templates/` are designed for copying to data repository with date 
 ```
 /reviews/
   /variance/YYYY-MM/     # Monthly variance analysis
-  /status/YYYY-MM/       # Status reports  
+  /status/YYYY-MM/       # Status reports
   /accounts/YYYY-MM/     # Account tracking
   /utilities/YYYY-MM/    # Utility bill analysis
 ```
@@ -56,14 +57,14 @@ Templates in `templates/` are designed for copying to data repository with date 
 
 ### Financial Phase System
 The system operates on 4 phases (defined in `procedures/changeover.md`):
-1. **Debt Control** (June-Dec 2025): $110/check buffer target
-2. **Debt Reduction** (Jan-June 2026): $250/check buffer target  
-3. **Build Credit** (July-Dec 2026): $500/check buffer target
+1. **Debt Control** (June–Dec 2025): $110/check buffer target
+2. **Debt Reduction** (Jan–June 2026): $250/check buffer target
+3. **Build Credit** (July–Dec 2026): $500/check buffer target
 4. **Build Wealth** (Jan 2027+): Long-term growth
 
 ### Security Boundaries
-- **Never commit sensitive data** - use local `~/secure-kabreneman-backup/` directory
-- Templates and procedures only - actual financial data stays private
+- **Never commit sensitive data** — use local `~/secure-kabreneman-backup/` directory
+- Templates and procedures only — actual financial data stays private
 - `.gitignore` prevents accidental data commits
 
 ## Integration Points
