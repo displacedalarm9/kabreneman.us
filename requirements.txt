@@ -1,0 +1,2 @@
+# Python dependencies for kabreneman.us scripts
+pyyaml>=6.0

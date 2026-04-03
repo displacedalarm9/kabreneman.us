@@ -1,0 +1,6 @@
+{
+  "names": ["project", "KABDMS", "version2", "software", "file-management", "data-management-system"],
+  "description": "Personal data management system - software component",
+  "dataRepository": "kabreneman.us",
+  "visibility": "public"
+}
