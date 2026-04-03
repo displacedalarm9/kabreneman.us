@@ -64,6 +64,7 @@ python scripts/workcap_analyzer.py
 - **File Naming Conventions**: See [`docs/filename.md`](docs/filename.md)
 - **Report Standards**: See [`docs/report-standards.md`](docs/report-standards.md)
 - **System History**: See [`docs/history.md`](docs/history.md)
+- **Copilot Activity Records**: See [`docs/project_support/copilot/README.md`](docs/project_support/copilot/README.md)
 
 ## Related Information
 

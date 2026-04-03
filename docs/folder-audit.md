@@ -1,6 +1,6 @@
 ---
-last_updated: 2024-01-18
-version: 1.0.0
+last_updated: 2026-04-03
+version: 1.1.0
 file_status: protocol  # Confirmed as protocol
 ---
 
@@ -25,6 +25,9 @@ file_status: protocol  # Confirmed as protocol
     /report/     # Report templates
     /data/       # Data templates
     /invest/     # Investment templates
+  /docs/
+    /project_support/   # Project-support artifacts (DOCSYS/UNISYS canonized)
+      /copilot/         # Copilot activity records (TSN:0001–TSN:0003)
   /archive/     # Archived files
     /2024/      # By year
       /Q1/      # By quarter
