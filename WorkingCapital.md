@@ -29,8 +29,7 @@ This is the complete overview of Project Working Capital. It includes the phases
 **Phase 3. Wealth Building & Credit Leveraging:** Exploit investments and ntensify credit.
 
 ### Phase 1: Debt Extinguishment & Credit Resolution
-[See: accounts.md for current debt amounts]
-**Timeline:** June-December 2025
+[See: logs/accounts.md for current debt amounts]
 
 1. **Primary Objectives**
    - Resolve $13,485.15 total debt
@@ -45,7 +44,7 @@ This is the complete overview of Project Working Capital. It includes the phases
    - Quarterly phase progress
 
 ### Phase 2: Capital Lock & Comfort
-[See: changeover.md for transition details]
+[See: procedures/changeover.md for transition details]
 **Timeline:** January-June 2026
 
 1. **Buffer Requirements**

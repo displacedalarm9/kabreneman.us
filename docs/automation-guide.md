@@ -1,3 +1,9 @@
+---
+last_updated: 2026-04-03
+version: 1.0.0
+file_status: active
+---
+
 # Automation Guide for Work Documentation
 
 This document describes how to automatically document work in this repository.

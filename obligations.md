@@ -1,3 +1,9 @@
+---
+last_updated: 2026-04-03
+version: 1.0.0
+file_status: template
+---
+
 # Fixed Obligations Protocol
 ## Project Operating Capital - FY26
 

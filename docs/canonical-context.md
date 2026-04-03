@@ -35,26 +35,50 @@ kabreneman.us/
 │   └── PULL_REQUEST_TEMPLATE.md  # PR template
 ├── archive/                      # Historical records and archived projects
 ├── configs/                      # Node configuration files (XML)
+├── data/                         # Local-only sensitive data (gitignored contents)
 ├── docs/                         # Documentation and standards
 │   ├── canonical-context.md      # Canonical hub document
 │   ├── automation-guide.md       # Work documentation automation
 │   ├── filename.md               # File naming conventions
 │   ├── folder-audit.md           # Folder structure audit
 │   ├── history.md                # System terminology history
-│   └── report-standards.md      # Report generation standards
+│   ├── metadata-wizard.md        # Metadata wizard usage guide
+│   ├── report-standards.md       # Report generation standards
+│   └── project_support/          # Project-support artifacts (DOCSYS/UNISYS canonized)
+│       └── copilot/              # Copilot activity records (TSN:0001–TSN:0003)
+├── logs/                         # Transaction log templates
 ├── procedures/                   # Operational workflows
 │   ├── changeover.md             # Phase transition plans
 │   ├── changes.md                # Change management
 │   ├── emergency.md              # Emergency protocols
 │   ├── matrix.md                 # Distribution matrix and tolerances
 │   └── schedule.md               # Review schedule
+├── projects/                     # Project-specific directories
+│   └── workcap/                  # WORKCAP project documentation
+├── reports/                      # Generated analysis reports
+├── reviews/                      # Position and status reviews
 ├── scripts/                      # Python utilities
 │   ├── fix_filenames.py          # File rename utility
+│   ├── metadata_wizard.py        # Metadata wizard
 │   └── workcap_analyzer.py       # Working capital analysis
+├── shared/                       # Shared scripts and data
 ├── templates/                    # Standardized templates
+├── utilities/                    # Utility bill records
+├── allocation.md                 # Income allocation protocol template
+├── cashflowsfy26.md              # Cash flows statement template
 ├── CLAUDE.md                     # Claude (Anthropic) spoke (derived from this doc)
+├── debts.csv                     # Debt tracking data
+├── expenses.md                   # Fixed expenses tracking
+├── obligations.md                # Fixed obligations protocol template
+├── obligationadherence.md        # Obligation adherence tracking
+├── OPERCAP1.xlsm                 # Original OPERCAP spreadsheet (archived)
+├── progress.md                   # Project adherence schedule
 ├── README.md                     # Repository overview
-└── topics.json                   # KABDMSV2 metadata
+├── review.md                     # Review schedule
+├── standards.md                  # Documentation standards
+├── topics.json                   # KABDMSV2 metadata
+├── TRANSFER_CHECKLIST.md         # Repository file audit and transfer checklist
+└── WorkingCapital.md             # Core project overview and execution protocol
 ```
 
 ## 3. Architecture and Data Flow
