@@ -330,7 +330,7 @@ def _patch_app_xml(xml_bytes: bytes) -> bytes:
     return ET.tostring(root, encoding="UTF-8", xml_declaration=True)
 
 
-def _write_zip(file_path: Path, entries: dict) -> None:
+def _write_zip(file_path: Path, entries: dict[str, bytes]) -> None:
     """Atomically replace *file_path* with a new ZIP built from *entries*."""
     tmp_path = file_path.with_name(file_path.stem + "_tmp" + file_path.suffix)
     try:
